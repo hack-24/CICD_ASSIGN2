@@ -9,4 +9,15 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   
+  
+  <distributionManagement>
+  <snapshotRepository>
+  <id>CICD_ASSIGN2</id>
+  <name>CICD_ASSIGN2</name>
+  <url>http://localhost:8081/repository/CICD_ASSIGN2/</url>
+  
+  
+  </snapshotRepository>
+  </distributionManagement>
+  
 </project>
